@@ -1,7 +1,7 @@
 package com.mc.command;
 
 public class IncreaseCommand implements Command, CommandFactory {
-    public static final String NAME = "increase";
+    private static final String NAME = "increase";
     private int value;
 
     @Override

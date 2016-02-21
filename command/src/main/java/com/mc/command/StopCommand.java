@@ -1,7 +1,7 @@
 package com.mc.command;
 
 public class StopCommand implements Command, CommandFactory {
-    public static final String NAME = "stop";
+    private static final String NAME = "stop";
 
     @Override
     public void execute() {

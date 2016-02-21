@@ -19,6 +19,7 @@
 
     <modules>
         <module>command</module>
+        <module>strategy</module>
     </modules>
 
     <build>

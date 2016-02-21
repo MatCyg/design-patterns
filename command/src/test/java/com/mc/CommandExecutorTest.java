@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class CommandExecutorTest {
 
-    public void testWithArgs(String... args) {
+    private void testWithArgs(String... args) {
         CommandExecutor.main(args);
     }
 
